@@ -1,0 +1,313 @@
+*{
+     box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+  
+}
+/*Header*/
+header{
+    background: url(../img/img3.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 500px;
+}
+.containner{
+    display: flex;
+}
+
+ul{  
+    margin-left: 20px;
+    margin-top: 50px;
+}
+li{ 
+    display: inline;
+    padding: 30px;
+    
+}
+a{
+    text-decoration: none;
+    
+    color: #FFFFFF;
+    
+}
+.exp{
+    color: #038DFE;
+}
+a:hover{
+    
+    color: #038DFE;
+    
+}
+.logo{
+    
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+.btn{
+    
+    background-color: #038DFE;
+    border-radius: 10rem;
+    padding: 10px 30px;
+    color: #FFF;
+    
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+}
+
+h1{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.block2{
+    
+    margin-top: 80px;
+     margin-left: 100px;
+    
+}
+.btn2{
+    background: #038dfe;
+    color: #FFF;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+    border-radius: 10rem;
+    padding: 20px 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.btn2:hover{
+    
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+}
+
+/*section */
+section{
+    height: 500px;
+}
+.containner2{
+    
+    display: flex;
+   margin-right: 30px;
+}
+.section-title{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.border {
+    width: 160px;
+    height: 2px;
+    background: #038dfe;
+    margin: 40px auto;
+}
+ 
+.B1{
+    
+    margin-left: 30px;
+    width: 400px;
+    height: 300px;
+    background: url(../img/code.png);
+    background-size: 70vh;    
+}
+.B2{
+    
+    margin-left: 60px;
+    width: 400px;
+    height: 300px;
+    background: url(../img/analyse.png);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    
+}
+.B3{
+    margin-left: 80px;
+    width: 400px;
+    height: 300px;
+    background: url(../img/Design.png);
+    background-size: 70vh;
+    
+}
+.B1,.B2,.B3{
+    flex: 1;
+}
+.coleur{
+    
+    background-color: #038dfe;
+    margin-top: 200px;
+    height: 100px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+}
+.coleur > h3{
+    
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+    
+}
+/*ABOUT*/
+.About{
+    
+    height: 300px;
+}
+.text > p{
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    margin-left: 90px;
+}
+
+
+/*Section-slider*/
+
+.mySlides {display:none;
+
+
+}
+.myslides{
+    
+    margin-left: 260px;
+}
+.slider-generale{
+    
+    display: flex;
+    
+    
+}
+.slider{
+    
+    height: 800px;
+}
+
+.w3-black{
+    
+    height: 50;
+    margin-top: 250px;
+    margin-left: 80px;
+    width: 50px;
+    background-color: #038dfe;
+    border: #038dfe;
+    color: white;
+}
+.w3-black:hover{
+     background-color: #FFF;
+    color: #000;
+    
+}
+
+.w3-display-right{
+    
+    margin-left: 180px;
+}
+
+.w3-black:hover{
+    cursor: pointer;
+}
+.info{
+    
+    display: flex;
+    
+}
+.info-1{
+    flex: 1;
+    position: relative;
+    left: 100px;
+}
+.info-2{
+    
+   flex: 1;
+    font-family: 'Montserrat';
+    margin-top: 130px;
+    margin-left: 90px;
+    
+}
+.info-2 a{
+    background-color: #038DFE;
+    border-radius: 10rem;
+    padding: 10px 190px;
+    color: #FFF;
+    position: relative;
+    top: 50px;
+     box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+   
+}
+.info-2 > h2{
+    
+    margin-left: 50px;
+}
+.info-2 a:hover{
+    
+     background-color: #FFF;
+    cursor: pointer;
+    color: #000;
+    
+}
+/*footer*/
+footer{
+    
+    background-color: #2B2B2B;
+}
+.foo{
+    display: flex;
+    
+}
+
+.foo1{
+    
+    margin-left: 60px;
+    
+}
+.foo2 > p{
+    
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.foo3{
+    padding-left: 360px;
+}
+.icons{
+    margin-left: 100px;
+}
+.mail{
+   position: relative;
+    bottom: 10px;
+}
+i{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

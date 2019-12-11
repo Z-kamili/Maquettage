@@ -1,0 +1,102 @@
+*{
+     box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+    background: url(../img/5bec3b950498f.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+}
+ul{  
+    margin-left: 80px;
+    margin-top: 50px;
+}
+li{ 
+    display: inline;
+    padding: 30px;
+    
+}
+a{
+    text-decoration: none;
+    
+    color: #FFFFFF;
+    
+}
+.exp{
+    color: #038DFE;
+}
+a:hover{
+    
+    color: #038DFE;
+    
+}
+
+/*logo*/
+.logo{
+    
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+
+form{
+    position: relative;
+    left: 700px;
+    top: 130px;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px; 
+}
+
+.avatare{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.mail{
+    margin-top: 20px;
+   margin-left: 20px;
+    width: 250px;
+    padding: 10px;
+        
+    
+    
+}
+.pass2{
+    margin-top: 20px;
+   margin-left: 20px;
+    width: 250px;
+    padding: 10px;
+        
+    
+    
+}
+.In{
+    
+     margin-top: 20px;
+   margin-left: 20px;
+    width: 250px;
+    padding: 10px;
+    background-color: #038DFE;
+    outline: none;
+     border: none;
+    color: #FFFFFF;
+}
+.In:hover{
+    
+    background-color: #FFFFFF;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    
+    
+    
+}
