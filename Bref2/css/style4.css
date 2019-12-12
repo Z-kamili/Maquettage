@@ -163,8 +163,11 @@ p{
 .container{
     
     display: flex;
-    margin-top: 130px;
-    margin-left: 80px;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+    
+ 
 }
 
 .text1 > p,.text2 >p,.text3 >p{
@@ -177,10 +180,10 @@ p{
     font-weight: 100;
     line-height: 25px;
     font-size: 14px;
-    width: 380px;
+    
     
 }
-.text1{
+/*.text1{
     margin-left: 50px;
 }
 .text2{
@@ -192,7 +195,7 @@ p{
 .text2 >p{
     
     margin-top: 40px;
-}
+}*/
 .Exp >img{
     
     margin-left: 100px;
@@ -466,6 +469,19 @@ footer{
 }
 i{
     margin-left: 10px;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
 }
 
 
