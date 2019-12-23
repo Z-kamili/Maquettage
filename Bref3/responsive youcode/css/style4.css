@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   
+   margin: 0;
+   padding: 0;
+   background: url(../img/5bec3b950498f.jpg);
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+   font-family: 'Montserrat', sans-serif;
+}
+header{
+   
+    background-color: #000;
+    display: flex;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    
+   
+   
+}
+/*Menu*/
+ul{  
+    margin-left: 5px;
+    margin-top: 35px;
+}
+li{ 
+    display: inline;
+    padding: 5px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+a:hover{
+    color: #038DFE;
+    
+}
+.logo{
+    position: relative;
+    top: 10px;
+    width:185px;
+    height:45px;
+}
+
+form{
+
+   background-color: #FFFFFF;
+   width: 300px;
+   height: 300px;
+   border-radius: 10px; 
+   margin: 150px auto;
+}
+
+.avatare{
+   margin-top: 30px;
+   margin-left: 120px;
+}
+
+.mail{
+   margin-top: 20px;
+  margin-left: 20px;
+   width: 250px;
+   padding: 10px;
+       
+   
+   
+}
+.pass2{
+   margin-top: 20px;
+  margin-left: 20px;
+   width: 250px;
+   padding: 10px;
+       
+   
+   
+}
+.In{
+   
+    margin-top: 20px;
+  margin-left: 20px;
+   width: 250px;
+   padding: 10px;
+   background-color: #038DFE;
+   outline: none;
+    border: none;
+   color: #FFFFFF;
+}
+.In:hover{
+   
+   background-color: #FFFFFF;
+   color: #000;
+   border: none;
+   cursor: pointer;
+   
+   
+   
+}
+.btn_menu
+{
+    
+    position: fixed;
+    top: 15px;
+    left: 30px;
+    height: 30px;
+    width:30px;
+    color: #FFF;
+    z-index: 1;
+}
+.btn_close
+{
+   display: none;
+    position: fixed;
+    top: 15px;
+    left: 30px;
+    height: 30px;
+    width:30px;
+    color: #FFF;
+    z-index: 1;
+}
+.menu1
+{
+    display: none;
+    background-color: black;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    right: 20px;
+}
+.table_menu
+{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.table_menu td
+{
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.table_menu th
+{
+    height: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (min-width:1195px){
+    .btn_menu
+   {
+       display: none !important;
+   }
+   .table_menu{
+       display: none;
+   }
+   .btn_close{
+       display: none !important;
+   }
+   .menu{
+       
+       display: block !important;
+   }
+    
+}
+@media screen and (max-width:1195px){
+nav{
+    display: none;
+}
+header {
+    height: 80px;;
+}
+.menu1
+{
+    display: none;
+    margin-top: -20px;
+    z-index: 1;     
+}
+}
+.table_menu {
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+}

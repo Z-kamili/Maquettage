@@ -200,12 +200,26 @@ Espace détente extérieur : après des heures de cours intenses, quoi de mieux 
             <div class="slider-generale">
             
            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+           
+
+            
+                <img class="mySlides" id="three"  src="img/1.png" >
+                <img class="mySlides" id="two" src="img/2.png" >
+                <img class="mySlides" id="first" src="img/3.jpg" >
+            
+                
+        
  
-<img class="mySlides" id="three"  src="img/1.png" >
-<img class="mySlides" id="two" src="img/2.png" >
-<img class="mySlides" id="first" src="img/3.jpg" >
+
              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>  
             </div>
+            <div id="slider">
+                <img name="slide" width="400" height="200">
+
+
+            </div>
+
+
         
         </section>
         
@@ -274,4 +288,31 @@ Espace détente extérieur : après des heures de cours intenses, quoi de mieux 
      </body>
       <script src="js/file.js">
 </script> 
+<script>
+var i = 0;
+var images = [];
+var time = 3000;
+
+//Image List
+images[0] = "img/1.png";
+images[1] = "img/2.png";
+images[2] = "img/3.jpg";
+
+function changeImg(){
+
+  document.slide.src = images[i];
+
+  if(i<images.length - 1){
+ i++;
+
+
+  }else{
+    i = 0;
+  }
+  setTimeout("changeImg()",time);
+}
+window.onload = changeImg;
+
+
+</script>
 </html>

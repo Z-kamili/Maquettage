@@ -389,6 +389,9 @@ footer{
     margin-top: -20px;
     z-index: 1;     
 }
+.menu1 tr{
+    width: auto;
+}
 
 nav{
     display: none;

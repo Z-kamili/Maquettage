@@ -32,73 +32,26 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
     
-        /*ecriture*/
-     var CONTENT = [ 
-	"Une école 100% gratuite|", 
-	"Pour construire ton futur|", 
-	"Pour atteindre tes objectifs|"
-	 
-];
+var i = 0;
+var images = [];
+var time = 3000;
+
+//Image List
+images[0] = "../img/1.png";
+images[1] = "../img/2.png";
+images[2] = "../img/3.png";
+
+function changeImg(){
+
+  document.slide.src = images[i];
+
+  if(i<images.length - 1){
+ i++;
 
 
-var Length = 0;
-
-
-var PART_INDEX = 0;
-
-
-var INTERVAL_VAL;
-
-
-var ELEMENT = document.querySelector("#text");
-
-
-var CURSOR = document.querySelector("#cursor");
-
-
-function Type() { 
-	
-	var text =  CONTENT[Length].substring(0, PART_INDEX + 1);
-	ELEMENT.innerHTML = text;
-   
-	PART_INDEX++;
-
-	
-	if(text === CONTENT[Length]) {
-		
-
-		clearInterval(INTERVAL_VAL);
-		setTimeout(function() {
-			INTERVAL_VAL = setInterval(Delete, 50);
-		}, 1000);
-	}
+  }else{
+    i = 0;
+  }
+  setTimeout("changeImg()",time);
 }
-
-
-function Delete() {
-	var text =  CONTENT[Length].substring(0, PART_INDEX - 1);
-    // console.log(text);
-	ELEMENT.innerHTML = text;
-	PART_INDEX--;
-
-	
-	if(text === '') {
-		clearInterval(INTERVAL_VAL);
-
-		
-		if(Length == (CONTENT.length - 1))
-			Length = 0;
-		else
-			Length++;
-		
-		PART_INDEX = 0;
-
-		
-		setTimeout(function() {
-			CURSOR.style.display = 'inline-block';
-			INTERVAL_VAL = setInterval(Type, 100);
-		}, 200);
-	}
-} 
-INTERVAL_VAL = setInterval(Type, 100); 
-    
+window.onload = changeImg;

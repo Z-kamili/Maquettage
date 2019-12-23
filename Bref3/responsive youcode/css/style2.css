@@ -370,8 +370,10 @@ h1{
     
 }
 iframe{
-    width:600px ;
-    height:450px;
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
 }
 /*footer*/
 footer{
@@ -433,7 +435,9 @@ footer{
     line-height: 35px;
     margin-right: 13px;
 }
-
+#slider{
+    display: none;
+}
 /*responsve design*/
 
 @media screen and (min-width:1195px){
@@ -469,6 +473,7 @@ iframe{
     height: 40px;
     
 }
+
 }
 @media screen and (max-width:800px){
     iframe{
@@ -574,7 +579,7 @@ margin: auto;
   
    
    margin-bottom: 60px;
-   width: 50%;;
+   width: 100%;;
    margin: auto;
 }
 /*iframe{
@@ -616,7 +621,18 @@ footer{
     text-align: center;
 }
 
-
+.slider-generale{
+    display: none;
+    }
+    #slider{
+        display: block;
+    }
+    #slider img{
+        display: block;
+        margin: auto;
+        height: 300px;
+      
+    }
 
 
 
