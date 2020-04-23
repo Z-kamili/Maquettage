@@ -14,7 +14,8 @@
         menu1.style.display="none";
     
     }
-    var slideIndex = 1;
+    
+var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -32,9 +33,9 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
     
-var i = 0;
-var images = [];
-var time = 3000;
+// var i = 0;
+// var images = [];
+// var time = 3000;
 
 //Image List
 images[0] = "../img/1.png";

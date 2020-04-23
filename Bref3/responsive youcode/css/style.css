@@ -272,7 +272,9 @@ color: #fff;
     font-size: 48px;
     font-weight: bold;
 }
-
+#exp{
+margin-left: -100px;
+}
 /*info-complementaire*/
 
 .containner4
